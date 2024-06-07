@@ -30,12 +30,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/assets",
-              "src/robots.txt",
-              "src/manifest.webmanifest",
-              "src/preloaded.js"
-            ],
+            "assets": ["src/assets", "src/robots.txt", "src/manifest.webmanifest", "src/preloaded.js"],
             "inlineStyleLanguage": "scss",
             "stylePreprocessorOptions": {
               "includePaths": []
@@ -163,11 +158,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets",
-              "src/manifest.webmanifest"
-            ],
+            "assets": ["src/favicon.ico", "src/assets", "src/manifest.webmanifest"],
             "stylePreprocessorOptions": {
               "includePaths": []
             },
@@ -266,5 +257,8 @@
       }
     }
   },
-  "defaultProject": "angular-boilerplate"
+  "defaultProject": "angular-boilerplate",
+  "cli": {
+    "analytics": false
+  }
 }

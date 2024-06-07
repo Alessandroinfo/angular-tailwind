@@ -68,7 +68,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
-    require('@tailwindcss/line-clamp'),
     // https://github.com/SamGoody/tailwind-children
     require('tailwind-children'),
   ],
